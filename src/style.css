@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000000;
+}
+
+canvas {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#controllers {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  background: white;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 16px;
+  cursor: pointer;
+  outline: none;
+  margin: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
